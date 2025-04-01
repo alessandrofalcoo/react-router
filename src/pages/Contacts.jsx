@@ -1,7 +1,14 @@
+import Footer from "../components/Footer"
+import Header from "../components/Header"
+import Main from "../components/Main"
+
 export default function Contacts() {
     return (
         <>
-            <h1>Hello Contacts</h1>
+            <Header />
+            <Main />
+            <Footer />
+
         </>
     )
 }
