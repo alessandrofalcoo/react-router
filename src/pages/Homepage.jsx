@@ -27,10 +27,10 @@ export default function Homepage() {
                                     >
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Products</a>
+                                    <a class="nav-link active" href="#">Products</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Contacts</a>
+                                    <a class="nav-link active" href="#">Contacts</a>
                                 </li>
                             </ul>
                         </div>
@@ -38,6 +38,27 @@ export default function Homepage() {
                 </nav>
 
             </header >
+            <main>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title">Card 1</h3>
+                                <p class="card-text">Hello card 1</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title">Card 2</h3>
+                                <p class="card-text">Hello card 2</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </main>
         </>
     )
 }
