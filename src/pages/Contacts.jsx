@@ -3,24 +3,47 @@ export default function Contacts() {
     return (
         <>
             <main className="m-4">
-                <div className="row">
-                    <div className="col-4">
-                        <div className="card">
-                            <div className="card-body">
-                                <h3 className="card-title">Card 5</h3>
-                                <p className="card-text">Hello card 5</p>
-                            </div>
-                        </div>
+                <form>
+                    <div className="mb-3">
+                        <input
+                            type="text"
+                            className="form-control"
+                            name=""
+                            id=""
+                            aria-describedby="helpId"
+                            placeholder="Inserisci il tuo nome..."
+                        />
                     </div>
-                    <div className="col-4">
-                        <div className="card">
-                            <div className="card-body">
-                                <h3 className="card-title">Card 6</h3>
-                                <p className="card-text">Hello card 6</p>
-                            </div>
-                        </div>
+                    <div className="mb-3">
+                        <input
+                            type="text"
+                            className="form-control"
+                            name=""
+                            id=""
+                            aria-describedby="helpId"
+                            placeholder="Inserisci il tuo cognome..."
+                        />
                     </div>
-                </div>
+                    <div className="mb-3">
+                        <input
+                            type="number"
+                            className="form-control"
+                            name=""
+                            id=""
+                            aria-describedby="helpId"
+                            placeholder="Inserisci il tuo numero di telefono..."
+                        />
+                    </div>
+                    <div className="mb-3">
+                        <div className="mb-3">
+                            <label for="" className="form-label"></label>
+                            <textarea className="form-control" name="" id="" rows="6" placeholder="Descrivici il tuo problema"></textarea>
+                        </div>
+
+                    </div>
+
+                </form>
+
 
             </main>
 
