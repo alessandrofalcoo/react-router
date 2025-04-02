@@ -26,7 +26,7 @@ export default function Contacts() {
                     </div>
                     <div className="mb-3">
                         <input
-                            type="number"
+                            type="text"
                             className="form-control"
                             name=""
                             id=""
