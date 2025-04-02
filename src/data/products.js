@@ -6,7 +6,7 @@ const products = [
         description: "A high-performance laptop for work and gaming.",
         category: "Electronics",
         stock: 10,
-        image: 'laptop.jpg'
+        image: '../assets/img/laptop.jpg'
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ const products = [
         description: "A sleek smartphone with a powerful camera.",
         category: "Electronics",
         stock: 25,
-        image: 'smartphone.jpg'
+        image: '../assets/img/smartphone.jpg'
     },
     {
         id: 3,
@@ -24,7 +24,7 @@ const products = [
         description: "Brew the perfect cup of coffee every morning.",
         category: "Home Appliances",
         stock: 5,
-        image: 'coffee-maker.jpg'
+        image: '../assets/img/coffee-maker.jpg'
     },
     {
         id: 4,
@@ -33,7 +33,7 @@ const products = [
         description: "An ergonomic chair for your home office.",
         category: "Furniture",
         stock: 8,
-        image: 'desk-chair.jpg'
+        image: '../assets/img/desk-chair.jpg'
     },
     {
         id: 5,
@@ -42,7 +42,7 @@ const products = [
         description: "Comfortable and durable running shoes.",
         category: "Sportswear",
         stock: 20,
-        image: 'running-shoes.jpg'
+        image: '../assets/img/running-shoes.jpg'
     },
     {
         id: 6,
@@ -51,7 +51,7 @@ const products = [
         description: "A spacious and stylish backpack for daily use.",
         category: "Accessories",
         stock: 15,
-        image: 'backpack-supreme.jpg'
+        image: '../assets/img/backpack-supreme.jpg'
     }
 ];
 

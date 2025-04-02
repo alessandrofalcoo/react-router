@@ -14,7 +14,7 @@ export default function Products() {
                                     <p className="price">{product.price}&euro;</p>
                                     <p className="card-text">{product.description}</p>
                                     <Link to={'/products/ ' + product.id} type="button"
-                                        class="btn btn-primary">
+                                        className="btn btn-primary">
                                         Seleziona
                                     </Link>
 
