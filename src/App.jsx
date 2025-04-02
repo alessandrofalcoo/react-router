@@ -13,6 +13,7 @@ function App() {
           <Route Component={defaultLayout}>
             <Route path="/" Component={Homepage} />
             <Route path="/products" Component={Products} />
+            <Route path="/products" />
             <Route path="/contacts" Component={Contacts} />
 
           </Route>
