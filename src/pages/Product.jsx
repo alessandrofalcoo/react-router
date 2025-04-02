@@ -1,11 +1,10 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router";
+import { useNavigate, useParams } from "react-router";
 import products from "../data/products";
 
 export default function Product() {
     const [product, setProduct] = useState(null)
-    console.log(product);
-
+    const navigate = useNavigate()
     const { id } = useParams() // qui estraggo l'id del singolo prodotto tramite il descruturing
 
     useEffect(() => {
@@ -26,6 +25,7 @@ export default function Product() {
                                 <div className="card-body">
                                     <h4 className="card-title">{product.name}</h4>
                                     <p className="card-text">{product.description}</p>
+                                    <p className="price fw-bold">{product.price}&euro;</p>
                                 </div>
                             </div>
 
