@@ -8,7 +8,7 @@ export default function Products() {
                 <div className="row">
                     {products.map(product => (
                         <div className="col-4" key={product.id}>
-                            <div className="card m-3 p-3">
+                            <div className="row g-4 p-2 h-100 card m-3  ">
                                 <div className="card-body">
                                     <h3 className="card-title">{product.name}</h3>
                                     <p className="price">{product.price}&euro;</p>
