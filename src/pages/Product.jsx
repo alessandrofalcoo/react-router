@@ -11,6 +11,9 @@ export default function Product() {
         const foundProduct = products.find(p => p.id === parseInt(id))
         if (foundProduct) {
             setProduct(foundProduct)
+            console.log(foundProduct);
+
+
         } else {
             setProduct('Non è stato trovato il prodotto corrispondente')
         }
