@@ -21,12 +21,21 @@ export default function Product() {
                 {
                     !product ? ('Ci dispiace ma al momento il sito è offline per manutenzione') : (
                         <>
-                            <div className="card my-4 py-4">
-                                <div className="card-body">
-                                    <h4 className="card-title">{product.name}</h4>
-                                    <p className="card-text">{product.description}</p>
-                                    <p className="price fw-bold">{product.price}&euro;</p>
+                            <div className="container">
+                                <div className="row g-4">
+                                    <div className="col-12 col-md-5">
+                                        <img src={product.image} alt="" className="img-fluid" />
+                                    </div>
+                                    <div className="card my-4 py-4">
+                                        <div className="card-body">
+                                            <h4 className="card-title">{product.name}</h4>
+                                            <p className="card-text">{product.description}</p>
+                                            <p className="price fw-bold">{product.price}&euro;</p>
+                                        </div>
+                                    </div>
+
                                 </div>
+
                             </div>
 
                         </>
