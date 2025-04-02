@@ -22,7 +22,7 @@ export default function Product() {
                 {
                     !product ? ('Ci dispiace ma al momento il sito è offline per manutenzione') : (
                         <>
-                            <div className="card">
+                            <div className="card my-4 py-4">
                                 <div className="card-body">
                                     <h4 className="card-title">{product.name}</h4>
                                     <p className="card-text">{product.description}</p>
